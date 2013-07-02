@@ -18,7 +18,7 @@ typedef struct kobj_attribute KOBJ_ATTRIBUTE, *PKOBJ_ATTRIBUTE;
 typedef struct attribute  ATTRIBUTE, *PATTRIBUTE;
 typedef struct attribute_group ATTRIBUTE_GROUP;
 
-/* Default timer tact period */
+/* Default timer tact perio */
 atomic_t tact = ATOMIC_INIT(DEFAULT_TICK);
 
 /* Timer structure */
